@@ -7,6 +7,7 @@
         switch($page) {
             case 'home':
             case 'about_us':
+            case 'projects':
             case 'services':
                 $title = ucwords( implode( ' ', explode( '_', $page ) ) );
                 break;
