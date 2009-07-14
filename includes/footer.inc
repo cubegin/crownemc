@@ -1,10 +1,10 @@
 <tt>
-    <a href="index.php?page=home">Home</a> |
-    <a href="index.php?page=about_us">About us</a> |
-    <a href="index.php?page=projects">Projects</a> |
-    <a href="index.php?page=services">Services</a> |
-    <a href="index.php?page=career">Career</a> |
-    <a href="index.php?page=contact_us">Contact us</a>
+    <a href="?page=home">Home</a> |
+    <a href="?page=about_us">About Us</a> |
+    <a href="?page=projects">Projects</a> |
+    <a href="?page=services">Services</a> |
+    <a href="?page=career">Career</a> |
+    <a href="?page=contact_us">Contact Us</a>
 </tt>
 
 <br />
