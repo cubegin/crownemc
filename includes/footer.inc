@@ -1,10 +1,10 @@
 <tt>
-    <a href="?page=home">Home</a> |
-    <a href="?page=about_us">About Us</a> |
-    <a href="?page=projects">Projects</a> |
-    <a href="?page=services">Services</a> |
-    <a href="?page=career">Career</a> |
-    <a href="?page=contact_us">Contact Us</a>
+    <a href="home.html">Home</a> |
+    <a href="about_us.html">About Us</a> |
+    <a href="projects.html">Projects</a> |
+    <a href="services.html">Services</a> |
+    <a href="career.html">Career</a> |
+    <a href="contact_us.html">Contact Us</a>
 </tt>
 
 <br />
