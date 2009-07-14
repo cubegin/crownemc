@@ -1,0 +1,17 @@
+@import base
+
+.row1
+  :border-bottom 1px solid #eee
+
+#left
+  +column(8)
+  :margin 10px
+
+#right
+  +last
+  +column(14)
+  :border-left 1px solid #eee
+  :margin 10px
+
+  .row1, .row2
+    +push(1)

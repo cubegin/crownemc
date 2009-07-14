@@ -1,0 +1,46 @@
+@import blueprint.sass
+@import compass/reset.sass
+@import blueprint/modules/scaffolding.sass
+
++blueprint
++blueprint-scaffolding
+
+#container
+  +container
+
+#header
+
+#content
+  +container
+  :text-align justify
+  :color #707276
+  :border-bottom 1px solid #eee
+  :padding 10px
+
+  h2
+    :font-size 20px
+    :color #707276
+
+  ul
+    :list-style-type circle
+
+  img
+    :float left
+    :padding 5px
+
+  .button
+    :display block
+    :width 150px
+    :text-align center
+    :border 1px solid #b0b1b3
+    :padding 5px
+    :margin-bottom 20px
+    :text-decoration none
+    :font-weight bold
+    :text-transform lowercase
+
+#footer
+  :text-align center
+  :background-color #f1f1f1
+  :padding 20px
+  :color #8f8f8f
