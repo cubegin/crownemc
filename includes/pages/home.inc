@@ -33,7 +33,7 @@
     </div>
     <div class='row2'>
         <h2>Our Services</h2>
-        <img src='statics/images/helmet.jpg' alt='Helmet' />
+        <img src='statics/images/helmet.png' alt='Helmet' />
         <p><b>Ipsum dolorsit ametct tueradi keroderase lerofe
         delaserta</b><br />Sciecaturpis rasamet arcuolor met
         nsectetuer lerosertas fertase delerats maisrtays ra
