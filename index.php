@@ -2,6 +2,8 @@
     echo '<?xml version="1.0" encoding="UTF-8"?>';
 
     $page = $_GET['page'];
+    if($page == "contact") $page = "contact_us";
+    if($page == "about") $page = "about_us";
     if ( !empty($page) ) {
 
         switch($page) {
@@ -9,6 +11,8 @@
             case 'about_us':
             case 'projects':
             case 'services':
+            case 'contact_us':
+            case 'career':
                 $title = ucwords( implode( ' ', explode( '_', $page ) ) );
                 break;
             default:

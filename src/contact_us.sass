@@ -1,0 +1,34 @@
+@import base
+
++blueprint-form
+
+#left
+  +column(8)
+  :margin 10px
+
+  .row1
+    div
+      +prepend(0.5)
+      :margin-bottom 20px
+
+#right
+  +column( 14, true )
+  :border-left 1px solid #eee
+  :margin 10px
+
+  .row1
+    +push(1)
+
+    label
+      +column(4)
+      :margin-top 14px
+
+    input, textarea
+      +column(9)
+
+    input[ type = 'submit' ], input[ type = 'reset' ]
+      +column(6)
+      :margin 0px 10px
+
+    textarea
+      :height 150px
