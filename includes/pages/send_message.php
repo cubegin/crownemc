@@ -9,6 +9,28 @@
         $sent = false;
     }
     else {
+        $to      = 'alanhaggai@alanhaggai.org';
+        $subject = 'Feedback';
+        $headers = "From: guest@crownemc.com\r\n" .
+            'X-Mailer: php';
+
+        $name         = $_POST['name'];
+        $organisation = $_POST['organisation'];
+        $telephone    = $_POST['telephone'];
+        $fax          = $_POST['fax'];
+        $e-mail       = $_POST['e-mail'];
+        $message      = $_POST['message'];
+
+        $body = "Name: $name\n\n" .
+            "Organisation: $organisation\n\n" .
+            "Telephone: $telephone\n\n" .
+            "Fax: $fax\n\n" .
+            'E-mail: ' . $e-mail . "\n\n" .
+            "Message:\n$message";
+
+        if ( mail( $to, $subject, $body, $headers ) ) {
+            $sent = true;
+        }
     }
 ?>
 
@@ -56,7 +78,7 @@
                             Your message has been sent successfully. We will get
                             back to you as soon as possible. You will be
                             automatically redirected to the home page in 10 seconds.
-                            Click <a href='../../'>here</a> to redirect manually.
+                            Click <a href='javascript: history.back()'>here</a> to redirect manually.
                         </p>
                     </div>
                     <meta http-equiv='Refresh' content='10;URL=../../'> 
