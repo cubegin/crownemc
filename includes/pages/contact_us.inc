@@ -32,7 +32,7 @@
 <div id='right'>
     <div class='row1'>
         <h2>Send Message</h2>
-        <form action='' method='post'>
+        <form action='includes/pages/send_message.php' method='post'>
             <p>
                 <label for='name'>Name</label>
                 <input type='text' name='name' id='name' class='text' />
@@ -59,7 +59,11 @@
                 <label for='message'>Message</label>
                 <textarea name='message' id='message'></textarea>
             </p>
-            <p>
+                <?php
+                    require_once('recaptcha-php-1.10/recaptchalib.php');
+                    $publickey = '6LdHYQcAAAAAALowQK0h8na1Zc3W7xxUOdq2YkXa';
+                    echo recaptcha_get_html($publickey);
+                ?>
                 <input type='submit' name='submit' value='Send Message' />
                 <input type='reset'  name='reset'  value='Reset' />
             </p>

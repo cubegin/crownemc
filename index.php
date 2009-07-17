@@ -59,6 +59,14 @@
                 'statics/images/<?php echo $page . '.jpg' ?>'
             );
         </script>
+
+        <?php if ( $page == 'contact_us' ): ?>
+            <script type= "text/javascript">
+            var RecaptchaOptions = {
+                //theme: 'clean'
+            };
+            </script>
+        <?php endif ?>
     </head>
 
     <body>
