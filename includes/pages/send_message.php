@@ -18,14 +18,14 @@
         $organisation = $_POST['organisation'];
         $telephone    = $_POST['telephone'];
         $fax          = $_POST['fax'];
-        $e-mail       = $_POST['e-mail'];
+        $email        = $_POST['e-mail'];
         $message      = $_POST['message'];
 
         $body = "Name: $name\n\n" .
             "Organisation: $organisation\n\n" .
             "Telephone: $telephone\n\n" .
             "Fax: $fax\n\n" .
-            'E-mail: ' . $e-mail . "\n\n" .
+            'E-mail: ' . $email . "\n\n" .
             "Message:\n$message";
 
         if ( mail( $to, $subject, $body, $headers ) ) {
