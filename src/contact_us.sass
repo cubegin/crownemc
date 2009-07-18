@@ -17,18 +17,18 @@
   :margin 10px
 
   .row1
-    +push(1)
+    :margin-left 50px
 
     label
       +column(4)
       :margin-top 14px
 
     input, textarea
-      +column(9)
+      +column( 12, true )
 
     input[ type = 'submit' ], input[ type = 'reset' ]
-      +column(6)
-      :margin 0px 10px
+      +column(3)
+      :margin-right 20px
 
     textarea
       :height 150px
