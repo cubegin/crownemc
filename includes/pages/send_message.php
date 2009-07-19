@@ -9,8 +9,8 @@
         $sent = false;
     }
     else {
-        $to      = 'alanhaggai@alanhaggai.org';
-        $subject = 'Feedback';
+        $to      = 'info@crownemc.com';
+        $subject = 'Enquiry';
         $headers = "From: guest@crownemc.com\r\n" .
             'X-Mailer: php';
 
