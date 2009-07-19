@@ -69,7 +69,7 @@
         <?php if ( $page == 'contact_us' ): ?>
             <script type= "text/javascript">
             var RecaptchaOptions = {
-                //theme: 'clean'
+                theme: 'clean'
             };
             </script>
         <?php endif ?>
