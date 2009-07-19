@@ -47,8 +47,8 @@
         <script type='text/javascript' src='scripts/jquery-1.3.2.min.js'></script>
         <script type='text/javascript'>
             $(document).ready(function() {
-                $('#container').hide();
-                $('#container').fadeIn(2000);
+                $('#content').hide();
+                $('#content').fadeIn(2000);
             });
 
             var myimages = new Array();
